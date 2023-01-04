@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+
+<h3>¿Alcohol o gasolina?</h3>
+
+<script>
+	var capacidadTanque = 40
+	var totalRecorrido = 480
+	var eficiencia = totalRecorrido/capacidadTanque
+
+	document.write("La eficiencia del carro usando gasolina es de " + Math.round(eficiencia) + " " + "km/h ")
+	document.write("<br>")
+	document.write("<br>")
+
+	var capacidadTanqueAlcohol = 40
+	var totalRecorridoAlcohol = 300
+	var eficienciaAlcohol = totalRecorridoAlcohol/capacidadTanqueAlcohol
+
+	document.write("La eficiencia del carro usando alcohol es de " + Math.round(eficienciaAlcohol) + " " + "km/h")
+
+	function imprimir(mensaje){
+		document.write(mensaje);
+	}
+
+	function saltarlinea(){
+
+		document.write("<br><br><br>");
+	}
+
+
+	var edadmia = 32;
+	var edadhermana = 26
+	var diferenciaedad = edadmia-edadhermana
+	saltarlinea()
+	imprimir("Nuestra diferencia de edad es" + " " + diferenciaedad)
+
+
+
+</script>

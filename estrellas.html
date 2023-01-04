@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+
+<script>
+	//function saltarlinea(){
+
+	//	document.write("<br><br><br>");
+	//}
+
+	//function imprimir(frase){
+
+	//	document.write(frase);
+	//	saltarlinea();
+	//}
+
+	//for (var lineas = 1; lineas <= 3; lineas++){
+	//	for (var columnas =1;columnas<= 10; columnas++){
+	//		document.write("*")
+	//	}
+
+	//	saltarlinea();
+		
+	//}
+	//imprimir("fin")
+
+
+
+    var inicioDeSesionRegistrado = "alura";
+    var contrasenhaRegistrada = "alura321";
+
+    
+    var intentos = 3;
+
+    for(contador=1; contador<= intentos; contador++){
+
+    	var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+    	var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+    	if (inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+    		alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+
+    	break
+
+ 		} else {
+
+
+ 			alert("inicio de sesión inválido. Favor intente de nuevo");
+ 		}
+    }
+</script>
