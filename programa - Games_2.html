@@ -12,9 +12,24 @@
 		pincel.strokeRect(x,y,50,50);
 	}
 
-	dibujarcuadradoverde(0,0,"Red");
-	dibujarcuadradoverde(0,50, "Yellow");
-	dibujarcuadradoverde(0,100, "Green");
-	
+	/*
+
+	var x = 0;
+	while (x < 600){
+		dibujarcuadradoverde(x,0,"Yellow");
+		dibujarcuadradoverde(x,50,"Blue");
+		dibujarcuadradoverde(x,100,"Red");
+		x = x + 50;
+	} 
+
+	*/
+
+	for (var x = 0; x<600; x = x+50){
+		dibujarcuadradoverde(x,0,"Yellow");
+		dibujarcuadradoverde(x,50,"Blue");
+		dibujarcuadradoverde(x,100,"Red");
+	}
+
+
 
 </script>
