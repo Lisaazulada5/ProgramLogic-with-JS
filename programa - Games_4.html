@@ -27,14 +27,14 @@
     function actualizarPantalla(){
 
     	limpiarPantalla();
-    	a = disenarCircunferencia(x,20,10);
+    	disenarCircunferencia(x,20,10);
     	x++;
+
+    		    	
     }
 
-   
+    pantalla.onclick = setInterval(actualizarPantalla, 100);
 
-
-    setInterval(actualizarPantalla, 50);
 
 
 
